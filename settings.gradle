@@ -1,2 +1,4 @@
+include ':designmode'
+include ':sturcture'
 include ':app'
 rootProject.name = "StructureApplication"

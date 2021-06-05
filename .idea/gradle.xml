@@ -13,6 +13,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/designmode" />
+            <option value="$PROJECT_DIR$/sturcture" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
