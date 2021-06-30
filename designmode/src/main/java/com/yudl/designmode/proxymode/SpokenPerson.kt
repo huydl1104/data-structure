@@ -1,4 +1,4 @@
-package com.yudl.designmode.proxy
+package com.yudl.designmode.proxymode
 
 /**
  * @Author: ydl
