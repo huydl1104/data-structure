@@ -33,5 +33,7 @@
 
 
 
-
-
+## leetcode
+1、SimpleLinkReverse                 单链表的反转问题详解 
+2、PrimeNumberTeat                   求1到n之间有多少的素数
+3、ArrayLength                       统计去除重复的数据，数组的长度

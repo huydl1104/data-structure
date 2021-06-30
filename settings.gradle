@@ -1,5 +1,6 @@
+rootProject.name = "StructureApplication"
+include ':leetcode'
 include ':designmode'
 include ':sturcture'
 include ':app'
-rootProject.name = "StructureApplication"
-include ':leetcode'
+
