@@ -5,7 +5,7 @@ package com.yudl.sturcture.guibingsort;
  * create time 2021-05-21
  * describe : 归并排序是 先拆分在合并的过程
  */
-public class TestJava {
+public class GuiBingTestJava {
 
     public static void main(String[] args) {
         int[] arr = new int[]{3, 7, 1};

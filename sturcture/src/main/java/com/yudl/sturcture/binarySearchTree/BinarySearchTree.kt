@@ -1,4 +1,4 @@
-package com.example.testapplication.suanfa.binarySearchTree
+package com.yudl.sturcture.binarySearchTree
 
 
 /**
@@ -28,7 +28,7 @@ fun main() {
 
 class Tree{
 
-    var rootNode:TreeNode?= null
+    var rootNode: TreeNode?= null
 
     fun addNewNode(node: TreeNode?){
         if (rootNode == null){
@@ -46,15 +46,15 @@ class Tree{
         rootNode!!.infixOrder()
     }
 
-    fun searchNode(data: Int):TreeNode?{
+    fun searchNode(data: Int): TreeNode?{
        return rootNode?.searchNode(data)
     }
 
-    fun searchTargetNode(data: Int):TreeNode?{
+    fun searchTargetNode(data: Int): TreeNode?{
         return rootNode?.searchTargetNode(data)
     }
 
-    fun searchParent(data: Int):TreeNode?{
+    fun searchParent(data: Int): TreeNode?{
         return rootNode?.searchParent(data)
     }
     //删除右侧树的最小值
@@ -138,7 +138,7 @@ class TreeNode(var data:Int){
         }
     }
     //循环的方式查找
-    fun searchNode(data: Int):TreeNode?{ //12
+    fun searchNode(data: Int): TreeNode?{ //12
         var currentNode: TreeNode?= this
         while (currentNode != null){
             currentNode = when {
@@ -158,7 +158,7 @@ class TreeNode(var data:Int){
     }
 
     //递归的方式查找
-    fun searchTargetNode(data: Int):TreeNode?{
+    fun searchTargetNode(data: Int): TreeNode?{
         return when {
             this.data == data -> {
                 return this
@@ -179,7 +179,7 @@ class TreeNode(var data:Int){
     }
 
     //根据具体的值查找对应的 node 节点的父节点
-    fun searchParent(data: Int):TreeNode?{
+    fun searchParent(data: Int): TreeNode?{
         return if ((this.leftNode != null && this.leftNode!!.data == data)
             || (this.rightNode != null && this.rightNode!!.data == data)){
             this

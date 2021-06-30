@@ -7,7 +7,7 @@ import java.util.*
  * create time 2021-06-07
  * describe : 斐波那契数列
  */
-object FibonacciKotlin {
+object FibonacciKotlinTest {
     var maxSize = 20
     @JvmStatic
     fun main(args: Array<String>) {

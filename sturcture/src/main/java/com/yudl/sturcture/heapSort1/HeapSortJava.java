@@ -3,7 +3,7 @@ package com.yudl.sturcture.heapSort1;
 /**
  * @author yudongliang
  * create time 2021-06-09
- * describe :
+ * describe : 堆排序
  */
 public class HeapSortJava {
 

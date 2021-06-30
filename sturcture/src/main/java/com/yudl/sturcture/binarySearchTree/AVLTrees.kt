@@ -1,4 +1,4 @@
-package com.example.testapplication.suanfa.binarySearchTree
+package com.yudl.sturcture.binarySearchTree
 
 import kotlin.math.max
 
@@ -80,7 +80,7 @@ fun midOrder(node: BalanceNode?){
 
 
 class BalancedTree{
-    var rootNode :BalanceNode? = null
+    var rootNode : BalanceNode? = null
 
     /**
      * 1、叶子节点
@@ -151,11 +151,11 @@ class BalancedTree{
         rootNode?.addNode(BalanceNode(data))
     }
 
-    fun searchParent(data: Int):BalanceNode?{
+    fun searchParent(data: Int): BalanceNode?{
         return rootNode?.searchParent(data)
     }
 
-    fun searchTargetNode(data: Int):BalanceNode?{
+    fun searchTargetNode(data: Int): BalanceNode?{
         return rootNode?.searchTargetNode(data)
     }
 
@@ -202,7 +202,7 @@ class BalanceNode(var data :Int){
         this.rightNode = newNode
     }
 
-     fun searchParent(data: Int):BalanceNode?{
+     fun searchParent(data: Int): BalanceNode?{
         return if ((this.leftNode != null && this.leftNode!!.data == data) ||
             (this.rightNode != null && this.rightNode!!.data == data)){
             this
@@ -218,7 +218,7 @@ class BalanceNode(var data :Int){
 
     }
 
-     fun searchTargetNode(data:Int):BalanceNode?{
+     fun searchTargetNode(data:Int): BalanceNode?{
         when {
             data == this.data -> {
                 return this

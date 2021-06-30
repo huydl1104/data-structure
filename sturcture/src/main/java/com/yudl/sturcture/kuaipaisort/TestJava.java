@@ -3,7 +3,7 @@ package com.yudl.sturcture.kuaipaisort;
 /**
  * @author yudongliang
  * create time 2021-05-20
- * describe :
+ * describe : 快速排序
  */
 public class TestJava {
 
