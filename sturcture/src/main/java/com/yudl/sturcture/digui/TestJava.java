@@ -1,5 +1,10 @@
 package com.yudl.sturcture.digui;
 
+import android.os.Build;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * @author yudongliang
  * create time 2021-06-01
@@ -12,6 +17,10 @@ public class TestJava {
         java.setWay(intArray,1,1);
         System.out.println("--------------------------------");
         java.print(intArray);
+        int[] arr = new int[]{5,6,9,11,14,10,10,11};
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            Arrays.stream(arr).sum();
+        }
     }
 
 
