@@ -28,5 +28,5 @@ private fun getArrayLength(array: Array<Int>):Int{
         }
         j++
     }
-    return i
+    return i + 1
 }

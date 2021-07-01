@@ -38,8 +38,10 @@
 2、PrimeNumberTeat                   求1到n之间有多少的素数
 3、ArrayLength                       统计去除重复的数据，数组的长度
 4、CenterArrayIndex                  求出数组的中心下标
-
-
+5、SqrtTest                          x的平方根
+6、ArrayInTwoSum                     两个数的和
+7、ArrayMaxProduct                   三个最大数的乘积
+8、Feibonaqie                        斐波那契数列
 
 
 

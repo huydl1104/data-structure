@@ -5,12 +5,11 @@ import kotlin.math.sqrt
 /**
  * @author yudongliang
  * create time 2021-06-30
- * describe : 求1到n之间有多少哥素数
- * 素数：是 只有 1 和 本身 。
+ * describe : 求1到n之间有多少个素数
+ * 素数：是 只有 1 和 本身
  * 合数：除了 1 和 本身 还有其他的数
  */
 fun main() {
-
     val prime = countPrime(100)
     println(prime)
 }
