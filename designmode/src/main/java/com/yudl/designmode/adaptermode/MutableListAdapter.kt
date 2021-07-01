@@ -1,4 +1,4 @@
-package com.yudl.designmode
+package com.yudl.designmode.adaptermode
 
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
