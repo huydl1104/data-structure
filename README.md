@@ -42,7 +42,7 @@
 6、ArrayInTwoSum                     两个数的和
 7、ArrayMaxProduct                   三个最大数的乘积
 8、Feibonaqie                        斐波那契数列
-
-
-
+9、RingLinked                        判断是否是环形链表
+10、ArrayMaxAverage                  子数组的最大平均数
+11、MergeArray                       合并两个有序数组
 
