@@ -22,9 +22,7 @@ private fun getArrayLength(array: Array<Int>):Int{
     while (j < array.size){
          if (array[i] != array[j]){
             i++
-            if (array[i] != array[j]){
-                array[i] = array[j]
-            }
+            array[i] = array[j]
         }
         j++
     }
